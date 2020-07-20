@@ -9,10 +9,14 @@ const assertEqual = function(actual, expected) {
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1);
 
-const head = function(array) {
-  let firstElement = array[0];
-  return firstElement;
+const tail = function(array) {
+  let allButFirstElement = array.slice(1);
+  return allButFirstElement;
 };
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+const result = tail(["Hello", "Lighthouse", "Labs"]);
+assertEqual(result.toString(), ["Lighthouse", "Labs"].toString());
+
+const words = ["Yo Yo", "Lighthouse", "Labs"];
+tail(words);
+assertEqual(words.length, 3);
