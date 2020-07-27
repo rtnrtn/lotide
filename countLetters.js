@@ -24,3 +24,5 @@ const string1 = countLetters("This function counts letters not spaces.");
 assertEqual(string1["T"], 1);
 assertEqual(string1["s"], 5);
 assertEqual(string1["n"], 4);
+
+module.exports = countLetters;

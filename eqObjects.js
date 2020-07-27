@@ -37,3 +37,5 @@ assertEqual(eqObjects({ a: "1", b: "2" }, { b: "2", a: "1" }), true);
 assertEqual(eqObjects({ a: "1", b: "2" }, { a: "1", b: "2", c: "3" }), false);
 assertEqual(eqObjects({ c: "1", d: ["2", 3] }, { d: ["2", 3], c: "1" }), true);
 assertEqual(eqObjects({ c: "1", d: ["2", 3] }, { c: "1", d: ["2", 3, 4] }), false);
+
+module.exports = eqObjects;

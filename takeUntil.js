@@ -44,3 +44,5 @@ assertArraysEqual(takeUntil(["what", "is", "going", "on"], word => word === "is"
 assertArraysEqual(takeUntil([5, 6, 7, 8, 9, 10, 11], num => num >= 10), [5, 6, 7, 8, 9]); //should pass
 assertArraysEqual(takeUntil(["I", "think", "I'm", "getting", "the", "hang", "of", "it"], word => word.length === 7), ["I", "think", "I'm"]); //should pass
 assertArraysEqual(takeUntil([153, 279, 300], num => num % 2 === 0), [153, 279, 300]); //should fail
+
+module.exports = takeUntil;

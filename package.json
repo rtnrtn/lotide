@@ -1,0 +1,27 @@
+{
+  "name": "@rtnrtn/lotide",
+  "version": "1.0.0",
+  "description": "A mini clone of the Lodash library (https://lodash.com), created as part of my learnings at Lighthouse Labs.",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtnrtn/lotide.git"
+  },
+  "author": "Tania N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtnrtn/lotide/issues"
+  },
+  "homepage": "https://github.com/rtnrtn/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  },
+  "dependencies": {}
+}

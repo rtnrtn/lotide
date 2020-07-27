@@ -35,3 +35,5 @@ assertArraysEqual(map(["what", "is", "going", "on"], word => word[0]), ["w", "i"
 assertArraysEqual(map([1, 2, 3], num => num * 100), [100, 200, 300]); //should pass
 assertArraysEqual(map(["I", "think", "I", "get", "it"], word => word.length), [1, 5, 1, 3, 2]); //should pass
 assertArraysEqual(map([100, 200, 300], num => num / 1), [1, 2, 3]); //should fail
+
+module.exports = map;

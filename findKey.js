@@ -44,3 +44,5 @@ assertEqual(findKey({
   "fullName3":  { first: "Josh" },
   "fullName4":  { first: "Max" }
 }, object => object.first === "Ava"), "fullName4"); //should fail
+
+module.exports = findKey;
